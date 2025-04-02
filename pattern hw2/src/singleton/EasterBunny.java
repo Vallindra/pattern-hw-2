@@ -10,7 +10,7 @@ public class EasterBunny {
     private EggFactory eggFactory;
     private HidingStrategy hidingStrategy;
 
-    private EasterBunny() { //connection
+    private EasterBunny() {
         this.eggFactory = new EggFactory();
         this.hidingStrategy = new RandomHidingStrategy();
     }
